@@ -14,7 +14,7 @@ function Particle() {
               value: 380,
               density: {
                 enable: true,
-                value_area: 6000,
+                value_area: 10000,
               },
             },
             color: {
@@ -64,7 +64,7 @@ function Particle() {
             },
             move: {
               enable: true,
-              speed: 6,
+              speed: 3,
               direction: 'none',
               random: false,
               straight: false,

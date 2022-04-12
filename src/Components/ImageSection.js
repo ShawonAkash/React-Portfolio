@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from '../img/avatar.jpg'
+import resume from '../img/IMG_20180323_145735-removebg-preview.png'
 import PrimaryButton from './PrimaryButton'
+import cv from '../data/Akash Ahmed Resume.pdf'
 
 function ImageSection() {
   return (
@@ -36,7 +37,7 @@ function ImageSection() {
             <p>: Freelance</p>
           </div>
         </div>
-        <PrimaryButton title={'Download Cv'} />
+        <PrimaryButton title={'Download Cv'} cv={cv} />
       </div>
     </ImageSectionStyled>
   )
